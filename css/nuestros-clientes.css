@@ -1,11 +1,1271 @@
-body {
-    margin: 0;
-    background-color: #dad7d7;
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        margin: 0%;
+        background-color: #5574ff;
+    }
+
+    /* Definicion bloques MenuPpal */
+    .MenuDeportes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuRestaurantes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuTecnologia{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuFinanciera{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuAutomotriz{
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuPpal{
+        background-color:#5574ff !important;
+        text-align:center;
+        margin-top: 5%;
+    }
+    .MenuPpal ol ul{
+        display:inline-block;
+        padding: 1%;
+    }
+    #InfoMenuPpalId{
+        color: black;
+        font-weight: bold;
+        font-style:inherit;
+    }
+    
+    /*Definicion Imagenes MenuPpal */
+    #InfoMenuPpalId{
+        background-color: #5574ff;
+    }
+    
+    /* Definicion bloques SubMenu */
+    #SubMenuDeportesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuRestaurantesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuTecnologiaId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuFinancieraId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuAutomotrizId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    
+    /* Margin para Imagenes SubMenuDeportes */
+    #AdidasId{
+        margin-left: 30px;
+        margin-right:20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NewBalanceId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #NikeId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PumaId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuRestaurantes */
+    #BrigadaId{
+        margin-left: 30px;
+        margin-right: 50px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PorteñoId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PassaroId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #SteakHouseId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuTecnologia */
+    #AccentureId{
+        margin-left: 30px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PedidosYaId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #SalesforceId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #EtermaxId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuFinancieras */
+    #BBVAId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #BibankId{
+        margin-right: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SantanderId{
+        margin-right: 15px;
+        margin-left: 10px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #ProvinciaId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuAutomotrices */
+    #MercedesId{
+        margin-left: 15px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #NissanId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolkswagenId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #VolvoId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+
+    /* Contenedor Compromiso */
+    #CompromisoId{
+        justify-content: center;
+        text-align: center;
+        text-justify: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 3%;
+        font-size: 18px;
+        color: rgb(39, 39, 39);
+    }
+
+    /* Contenedor Head */
+    #HeadId{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    /* Contenedor TituloCompromiso */
+    #TituloCompromisoId{
+        margin-top: 3%;
+        text-align: center;
+        color: rgb(39, 39, 39);
+        font-size: 180%;
+        background-color: #5574ff;;
+    }
+
+    /* Definicion Span Iconos */
+    #DeportesId{
+        background-color: #5574ff;
+    }
+    #RestaurantesId{
+        background-color: #5574ff;
+    }
+    #TecnologiaId{
+        background-color: #5574ff;
+    }
+    #FinancieraId{
+        background-color: #5574ff;
+    }
+    #AutomotrizId{
+        background-color: #5574ff;
+    }
 }
 
+@media (min-width: 481px) and (max-width: 759px) {
+    body {
+        margin: 0%;
+        background-color: #f0cb7d;
+    }
+
+    /* Definicion bloques MenuPpal */
+    .MenuDeportes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuRestaurantes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuTecnologia{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuFinanciera{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuAutomotriz{
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuPpal{
+        background-color:#f0cb7d !important;
+        text-align:center;
+        margin-top: 5%;
+    }
+    .MenuPpal ol ul{
+        display:inline-block;
+        padding: 1%;
+    }
+    #InfoMenuPpalId{
+        color: black;
+        font-weight: bold;
+        font-style:inherit;
+    }
+    
+    /*Definicion Imagenes MenuPpal */
+    #InfoMenuPpalId{
+        background-color: #f0cb7d;
+    }
+    
+    /* Definicion bloques SubMenu */
+    #SubMenuDeportesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuRestaurantesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuTecnologiaId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuFinancieraId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuAutomotrizId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    
+    /* Margin para Imagenes SubMenuDeportes */
+    #AdidasId{
+        margin-left: 30px;
+        margin-right:20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NewBalanceId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #NikeId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PumaId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuRestaurantes */
+    #BrigadaId{
+        margin-left: 30px;
+        margin-right: 50px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PorteñoId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PassaroId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #SteakHouseId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuTecnologia */
+    #AccentureId{
+        margin-left: 30px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PedidosYaId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SalesforceId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #EtermaxId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuFinancieras */
+    #BBVAId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #BibankId{
+        margin-right: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SantanderId{
+        margin-right: 15px;
+        margin-left: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #ProvinciaId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuAutomotrices */
+    #MercedesId{
+        margin-left: 15px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NissanId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolkswagenId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #VolvoId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+
+    /* Contenedor Compromiso */
+    #CompromisoId{
+        justify-content: center;
+        text-align: center;
+        text-justify: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 3%;
+        font-size: 18px;
+        color: rgb(39, 39, 39);
+    }
+
+    /* Contenedor Head */
+    #HeadId{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    /* Contenedor TituloCompromiso */
+    #TituloCompromisoId{
+        margin-top: 3%;
+        text-align: center;
+        color: rgb(39, 39, 39);
+        font-size: 180%;
+        background-color: #f0cb7d;;
+    }
+
+    /* Definicion Span Iconos */
+    #DeportesId{
+        background-color: #f0cb7d;
+    }
+    #RestaurantesId{
+        background-color: #f0cb7d;
+    }
+    #TecnologiaId{
+        background-color: #f0cb7d;
+    }
+    #FinancieraId{
+        background-color: #f0cb7d;
+    }
+    #AutomotrizId{
+        background-color: #f0cb7d;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+    body {
+        margin: 0%;
+        background-color: #c0d8a4;
+    }
+
+    /* Definicion bloques MenuPpal */
+    .MenuDeportes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuRestaurantes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuTecnologia{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuFinanciera{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuAutomotriz{
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuPpal{
+        background-color:#c0d8a4 !important;
+        text-align:center;
+        margin-top: 5%;
+    }
+    .MenuPpal ol ul{
+        display:inline-block;
+        padding: 1%;
+    }
+    #InfoMenuPpalId{
+        color: black;
+        font-weight: bold;
+        font-style:inherit;
+    }
+    
+    /*Definicion Imagenes MenuPpal */
+    #InfoMenuPpalId{
+        background-color: #c0d8a4;
+    }
+    
+    /* Definicion bloques SubMenu */
+    #SubMenuDeportesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuRestaurantesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuTecnologiaId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuFinancieraId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuAutomotrizId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    
+    /* Margin para Imagenes SubMenuDeportes */
+    #AdidasId{
+        margin-left: 30px;
+        margin-right:20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NewBalanceId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NikeId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PumaId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuRestaurantes */
+    #BrigadaId{
+        margin-left: 30px;
+        margin-right: 50px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PorteñoId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PassaroId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #SteakHouseId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuTecnologia */
+    #AccentureId{
+        margin-left: 30px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PedidosYaId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SalesforceId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #EtermaxId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuFinancieras */
+    #BBVAId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #BibankId{
+        margin-right: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SantanderId{
+        margin-right: 15px;
+        margin-left: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #ProvinciaId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuAutomotrices */
+    #MercedesId{
+        margin-left: 15px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NissanId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolkswagenId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #VolvoId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+
+    /* Contenedor Compromiso */
+    #CompromisoId{
+        justify-content: center;
+        text-align: center;
+        text-justify: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 3%;
+        font-size: 18px;
+        color: rgb(39, 39, 39);
+    }
+
+    /* Contenedor Head */
+    #HeadId{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    /* Contenedor TituloCompromiso */
+    #TituloCompromisoId{
+        margin-top: 3%;
+        text-align: center;
+        color: rgb(39, 39, 39);
+        font-size: 180%;
+        background-color: #c0d8a4;;
+    }
+
+    /* Definicion Span Iconos */
+    #DeportesId{
+        background-color: #c0d8a4;
+    }
+    #RestaurantesId{
+        background-color: #c0d8a4;
+    }
+    #TecnologiaId{
+        background-color: #c0d8a4;
+    }
+    #FinancieraId{
+        background-color: #c0d8a4;
+    }
+    #AutomotrizId{
+        background-color: #c0d8a4;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        margin: 0%;
+        background-color: #a1ffff;
+    }
+
+    /* Definicion bloques MenuPpal */
+    .MenuDeportes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuRestaurantes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuTecnologia{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuFinanciera{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuAutomotriz{
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuPpal{
+        background-color:#a1ffff !important;
+        text-align:center;
+        margin-top: 5%;
+    }
+    .MenuPpal ol ul{
+        display:inline-block;
+        padding: 1%;
+    }
+    #InfoMenuPpalId{
+        color: black;
+        font-weight: bold;
+        font-style:inherit;
+    }
+    
+    /*Definicion Imagenes MenuPpal */
+    #InfoMenuPpalId{
+        background-color: #a1ffff;
+    }
+    
+    /* Definicion bloques SubMenu */
+    #SubMenuDeportesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuRestaurantesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuTecnologiaId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuFinancieraId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuAutomotrizId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    
+    /* Margin para Imagenes SubMenuDeportes */
+    #AdidasId{
+        margin-left: 30px;
+        margin-right:20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NewBalanceId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NikeId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PumaId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuRestaurantes */
+    #BrigadaId{
+        margin-left: 30px;
+        margin-right: 50px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PorteñoId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PassaroId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #SteakHouseId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuTecnologia */
+    #AccentureId{
+        margin-left: 30px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    #PedidosYaId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SalesforceId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #EtermaxId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuFinancieras */
+    #BBVAId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #BibankId{
+        margin-right: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SantanderId{
+        margin-right: 15px;
+        margin-left: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #ProvinciaId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+    
+    /* Margin para Imagenes SubMenuAutomotrices */
+    #MercedesId{
+        margin-left: 15px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NissanId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolkswagenId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolvoId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+
+    /* Contenedor Compromiso */
+    #CompromisoId{
+        justify-content: center;
+        text-align: center;
+        text-justify: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 3%;
+        font-size: 18px;
+        color: rgb(39, 39, 39);
+    }
+
+    /* Contenedor Head */
+    #HeadId{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    /* Contenedor TituloCompromiso */
+    #TituloCompromisoId{
+        margin-top: 3%;
+        text-align: center;
+        color: rgb(39, 39, 39);
+        font-size: 180%;
+        background-color: #a1ffff;;
+    }
+
+    /* Definicion Span Iconos */
+    #DeportesId{
+        background-color: #a1ffff;
+    }
+    #RestaurantesId{
+        background-color: #a1ffff;
+    }
+    #TecnologiaId{
+        background-color: #a1ffff;
+    }
+    #FinancieraId{
+        background-color: #a1ffff;
+    }
+    #AutomotrizId{
+        background-color: #a1ffff;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 2000px) {
+    body {
+        margin: 0%;
+        background-color: #fc8383;
+    }
+    
+    /* Definicion bloques MenuPpal */
+    .MenuDeportes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuRestaurantes{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuTecnologia{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuFinanciera{
+        padding: 15px;
+        display: inline-block;
+    }
+    .MenuAutomotriz{
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuPpal{
+        background-color:#fc8383 !important;
+        text-align:center;
+        margin-top: 5%;
+    }
+    .MenuPpal ol ul{
+        display:inline-block;
+        padding: 1%;
+    }
+    #InfoMenuPpalId{
+        color: black;
+        font-weight: bold;
+        font-style:inherit;
+    }
+    
+    /*Definicion Imagenes MenuPpal */
+    #InfoMenuPpalId{
+        background-color: #fc8383;
+    }
+    
+    /* Definicion bloques SubMenu */
+    #SubMenuDeportesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuRestaurantesId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuTecnologiaId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuFinancieraId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    #SubMenuAutomotrizId{
+        background-color: rgb(210, 205, 205);
+        padding: 15px;
+        text-align: center;
+        display: none;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 40px 10px;
+    }
+    
+    /* Margin para Imagenes SubMenuDeportes */
+    #AdidasId{
+        margin-left: 30px;
+        margin-right:20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NewBalanceId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NikeId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PumaId{
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuRestaurantes */
+    #BrigadaId{
+        margin-left: 30px;
+        margin-right: 50px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PorteñoId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PassaroId{
+        margin-right: 60px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SteakHouseId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuTecnologia */
+    #AccentureId{
+        margin-left: 30px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #PedidosYaId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SalesforceId{
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #EtermaxId{
+        margin-right: 30px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuFinancieras */
+    #BBVAId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #BibankId{
+        margin-right: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #SantanderId{
+        margin-right: 15px;
+        margin-left: 10px;
+        background-color: rgb(210, 205, 205);
+    }
+    #ProvinciaId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    
+    /* Margin para Imagenes SubMenuAutomotrices */
+    #MercedesId{
+        margin-left: 15px;
+        margin-right: 40px;
+        background-color: rgb(210, 205, 205);
+    }
+    #NissanId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolkswagenId{
+        margin-right: 40px;
+        margin-left: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+    #VolvoId{
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgb(210, 205, 205);
+    }
+
+    /* Contenedor Compromiso */
+    #CompromisoId{
+        justify-content: center;
+        text-align: center;
+        text-justify: auto;
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-top: 3%;
+        font-size: 22px;
+        color: rgb(39, 39, 39);
+    }
+
+    /* Contenedor Head */
+    #HeadId{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    /* Contenedor TituloCompromiso */
+    #TituloCompromisoId{
+        margin-top: 3%;
+        text-align: center;
+        color: rgb(39, 39, 39);
+        font-size: 180%;
+        background-color: #fc8383;;
+    }
+
+    /* Definicion Span Iconos */
+    #DeportesId{
+        background-color: #fc8383;
+    }
+    #RestaurantesId{
+        background-color: #fc8383;
+    }
+    #TecnologiaId{
+        background-color: #fc8383;
+    }
+    #FinancieraId{
+        background-color: #fc8383;
+    }
+    #AutomotrizId{
+        background-color: #fc8383;
+    }
+}
 
 /* header */
-
 
 .header {
     background-image: url(../imagen/monitoreo.jpeg);
@@ -62,212 +1322,8 @@ body {
 
 .nav__link {
     text-shadow: 1.5px 1.5px #ff0000;
-
     text-decoration: none;
     color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-.MenuPpal{
-    background-color:#cd0707 !important;
-    text-align:center;
-    margin-top: 5%;
-}
-.MenuPpal ol ul{
-    display:inline-block;
-    padding: 1%;
-}
-#InfoMenuPpalId{
-    color: black;
-    font-weight: bold;
-    font-style:inherit;
-}
-
-/* Definicion bloques MenuPpal */
-.MenuDeportes{
-    padding: 15px;
-    display: inline-block;
-}
-.MenuRestaurantes{
-    padding: 15px;
-    display: inline-block;
-}
-.MenuTecnologia{
-    padding: 15px;
-    display: inline-block;
-}
-.MenuFinanciera{
-    padding: 15px;
-    display: inline-block;
-}
-.MenuAutomotriz{
-    padding: 15px;
-    display: inline-block;
-}
-
-/*Definicion Imagenes MenuPpal */
-#InfoMenuPpalId{
-    background-color: #cd0707;
-}
-
-/* Definicion bloques SubMenu */
-#SubMenuDeportesId{
-    background-color: rgb(210, 205, 205);
-    padding: 15px;
-    text-align: center;
-    display: none;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px 10px;
-}
-#SubMenuRestaurantesId{
-    background-color: rgb(210, 205, 205);
-    padding: 15px;
-    text-align: center;
-    display: none;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px 10px;
-}
-#SubMenuTecnologiaId{
-    background-color: rgb(210, 205, 205);
-    padding: 15px;
-    text-align: center;
-    display: none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px 10px;
-}
-#SubMenuFinancieraId{
-    background-color: rgb(210, 205, 205);
-    padding: 15px;
-    text-align: center;
-    display: none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px 10px;
-}
-#SubMenuAutomotrizId{
-    background-color: rgb(210, 205, 205);
-    padding: 15px;
-    text-align: center;
-    display: none;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px 10px;
-}
-
-/* Margin para Imagenes SubMenuDeportes */
-#AdidasId{
-    margin-left: 30px;
-    margin-right:20px;
-    background-color: rgb(210, 205, 205);
-}
-#NewBalanceId{
-    margin-right: 20px;
-    background-color: rgb(210, 205, 205);
-}
-#NikeId{
-    margin-right: 20px;
-    background-color: rgb(210, 205, 205);
-}
-#PumaId{
-    margin-right: 20px;
-    background-color: rgb(210, 205, 205);
-}
-
-/* Margin para Imagenes SubMenuRestaurantes */
-#BrigadaId{
-    margin-left: 30px;
-    margin-right: 50px;
-    background-color: rgb(210, 205, 205);
-}
-#PorteñoId{
-    margin-right: 60px;
-    background-color: rgb(210, 205, 205);
-}
-#PassaroId{
-    margin-right: 60px;
-    background-color: rgb(210, 205, 205);
-}
-#SteakHouseId{
-    margin-right: 30px;
-    background-color: rgb(210, 205, 205);
-}
-
-/* Margin para Imagenes SubMenuTecnologia */
-#AccentureId{
-    margin-left: 30px;
-    margin-right: 40px;
-    background-color: rgb(210, 205, 205);
-}
-#PedidosYaId{
-    margin-right: 40px;
-    background-color: rgb(210, 205, 205);
-}
-#SalesforceId{
-    margin-right: 40px;
-    background-color: rgb(210, 205, 205);
-}
-#EtermaxId{
-    margin-right: 30px;
-    background-color: rgb(210, 205, 205);
-}
-
-/* Margin para Imagenes SubMenuFinancieras */
-#BBVAId{
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: rgb(210, 205, 205);
-}
-#BibankId{
-    margin-right: 10px;
-    background-color: rgb(210, 205, 205);
-}
-#SantanderId{
-    margin-right: 15px;
-    margin-left: 10px;
-    background-color: rgb(210, 205, 205);
-}
-#ProvinciaId{
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: rgb(210, 205, 205);
-}
-
-/* Margin para Imagenes SubMenuAutomotrices */
-#MercedesId{
-    margin-left: 15px;
-    margin-right: 40px;
-    background-color: rgb(210, 205, 205);
-}
-#NissanId{
-    margin-right: 40px;
-    margin-left: 15px;
-    background-color: rgb(210, 205, 205);
-}
-#VolkswagenId{
-    margin-right: 40px;
-    margin-left: 15px;
-    background-color: rgb(210, 205, 205);
-}
-#VolvoId{
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: rgb(210, 205, 205);
 }
 
 /* Contenedor Main */
@@ -278,61 +1334,7 @@ body {
     margin-bottom: 10%;
 }
 
-/* Contenedor Compromiso */
-#CompromisoId{
-    justify-content: center;
-    text-justify: auto;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-top: 3%;
-    font-size: 18px;
-    color: rgb(39, 39, 39);
-}
-
-/* Contenedor Head */
-#HeadId{
-    text-align: center;
-}
-
-/* Contenedor TituloCompromiso */
-#TituloCompromisoId{
-    margin-top: 3%;
-    text-align: center;
-    color: rgb(39, 39, 39);
-    font-size: 180%;
-    background-color: #cd0707;
-}
-
-/* Definicion Span Iconos */
-#DeportesId{
-    background-color: #cd0707;
-}
-#RestaurantesId{
-    background-color: #cd0707;
-}
-#TecnologiaId{
-    background-color: #cd0707;
-}
-#FinancieraId{
-    background-color: #cd0707;
-}
-#AutomotrizId{
-    background-color: #cd0707;
-}
-
-
-
-
-
-
-
-
-
-
-
 /* footer  */
-
-
 .footer {
     text-shadow: 0.4px 0.4px #000;
     display: flex;
