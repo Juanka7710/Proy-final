@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    background-color: #dad7d7;
+}
+
+
+/* header */
+
+
+.header {
+    background-image: url(../imagen/monitoreo.jpeg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.nav__bar {
+    width: 1600px;
+    margin: 0;
+}
+
+.image__png {
+    height: 100px;
+    display: flex;
+    padding-top: 0;
+    margin: 0;
+    background-image: radial-gradient(circle, #8684a4, transparent);
+    background-size: cover;
+}
+
+.main__title {
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    font-size: 58px;
+    margin: 0;
+}
+
+.nav__ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 5px;
+    margin: 4px;
+}
+
+.nav__item:hover {
+    padding: 5px;
+    background-color: #ff0000;
+    border-radius: 13px;
+    
+}
+
+.nav__link {
+    text-shadow: 1.5px 1.5px #ff0000;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.MenuPpal{
+    background-color:#cd0707 !important;
+    text-align:center;
+    margin-top: 5%;
+}
+.MenuPpal ol ul{
+    display:inline-block;
+    padding: 1%;
+}
+#InfoMenuPpalId{
+    color: black;
+    font-weight: bold;
+    font-style:inherit;
+}
+
+/* Definicion bloques MenuPpal */
+.MenuDeportes{
+    padding: 15px;
+    display: inline-block;
+}
+.MenuRestaurantes{
+    padding: 15px;
+    display: inline-block;
+}
+.MenuTecnologia{
+    padding: 15px;
+    display: inline-block;
+}
+.MenuFinanciera{
+    padding: 15px;
+    display: inline-block;
+}
+.MenuAutomotriz{
+    padding: 15px;
+    display: inline-block;
+}
+
+/*Definicion Imagenes MenuPpal */
+#InfoMenuPpalId{
+    background-color: #cd0707;
+}
+
+/* Definicion bloques SubMenu */
+#SubMenuDeportesId{
+    background-color: rgb(210, 205, 205);
+    padding: 15px;
+    text-align: center;
+    display: none;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px 10px;
+}
+#SubMenuRestaurantesId{
+    background-color: rgb(210, 205, 205);
+    padding: 15px;
+    text-align: center;
+    display: none;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px 10px;
+}
+#SubMenuTecnologiaId{
+    background-color: rgb(210, 205, 205);
+    padding: 15px;
+    text-align: center;
+    display: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px 10px;
+}
+#SubMenuFinancieraId{
+    background-color: rgb(210, 205, 205);
+    padding: 15px;
+    text-align: center;
+    display: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px 10px;
+}
+#SubMenuAutomotrizId{
+    background-color: rgb(210, 205, 205);
+    padding: 15px;
+    text-align: center;
+    display: none;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px 10px;
+}
+
+/* Margin para Imagenes SubMenuDeportes */
+#AdidasId{
+    margin-left: 30px;
+    margin-right:20px;
+    background-color: rgb(210, 205, 205);
+}
+#NewBalanceId{
+    margin-right: 20px;
+    background-color: rgb(210, 205, 205);
+}
+#NikeId{
+    margin-right: 20px;
+    background-color: rgb(210, 205, 205);
+}
+#PumaId{
+    margin-right: 20px;
+    background-color: rgb(210, 205, 205);
+}
+
+/* Margin para Imagenes SubMenuRestaurantes */
+#BrigadaId{
+    margin-left: 30px;
+    margin-right: 50px;
+    background-color: rgb(210, 205, 205);
+}
+#PorteñoId{
+    margin-right: 60px;
+    background-color: rgb(210, 205, 205);
+}
+#PassaroId{
+    margin-right: 60px;
+    background-color: rgb(210, 205, 205);
+}
+#SteakHouseId{
+    margin-right: 30px;
+    background-color: rgb(210, 205, 205);
+}
+
+/* Margin para Imagenes SubMenuTecnologia */
+#AccentureId{
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color: rgb(210, 205, 205);
+}
+#PedidosYaId{
+    margin-right: 40px;
+    background-color: rgb(210, 205, 205);
+}
+#SalesforceId{
+    margin-right: 40px;
+    background-color: rgb(210, 205, 205);
+}
+#EtermaxId{
+    margin-right: 30px;
+    background-color: rgb(210, 205, 205);
+}
+
+/* Margin para Imagenes SubMenuFinancieras */
+#BBVAId{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(210, 205, 205);
+}
+#BibankId{
+    margin-right: 10px;
+    background-color: rgb(210, 205, 205);
+}
+#SantanderId{
+    margin-right: 15px;
+    margin-left: 10px;
+    background-color: rgb(210, 205, 205);
+}
+#ProvinciaId{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(210, 205, 205);
+}
+
+/* Margin para Imagenes SubMenuAutomotrices */
+#MercedesId{
+    margin-left: 15px;
+    margin-right: 40px;
+    background-color: rgb(210, 205, 205);
+}
+#NissanId{
+    margin-right: 40px;
+    margin-left: 15px;
+    background-color: rgb(210, 205, 205);
+}
+#VolkswagenId{
+    margin-right: 40px;
+    margin-left: 15px;
+    background-color: rgb(210, 205, 205);
+}
+#VolvoId{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(210, 205, 205);
+}
+
+/* Contenedor Main */
+#ContainerId{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+/* Contenedor Compromiso */
+#CompromisoId{
+    justify-content: center;
+    text-justify: auto;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 3%;
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+}
+
+/* Contenedor Head */
+#HeadId{
+    text-align: center;
+}
+
+/* Contenedor TituloCompromiso */
+#TituloCompromisoId{
+    margin-top: 3%;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 180%;
+    background-color: #cd0707;
+}
+
+/* Definicion Span Iconos */
+#DeportesId{
+    background-color: #cd0707;
+}
+#RestaurantesId{
+    background-color: #cd0707;
+}
+#TecnologiaId{
+    background-color: #cd0707;
+}
+#FinancieraId{
+    background-color: #cd0707;
+}
+#AutomotrizId{
+    background-color: #cd0707;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+
+
+.footer {
+    text-shadow: 0.4px 0.4px #000;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background: linear-gradient(transparent, hsl(202, 95%, 64%));
+    width: 100%;
+    padding: 20px 0;
+}
+
+.caja {
+    flex: 1;
+    text-align: center;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 19px;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+} 
+
+.li__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-right: 6px;
+    text-decoration: none;
+    color: #000;
+}
+
+.img__png {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 70px;
+} 
+
+.footer__text {
+    color: #000;
+}
+
+.p__footer {
+    color: #000;
+    text-align: center;
+}
