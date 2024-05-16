@@ -1,8 +1,8 @@
 let imagenes = [
-    "../imagen/baner 01.jpg",
-    "../imagen/baner 02.jpg",
-    "../imagen/baner 03.jpg",
-    "../imagen/baner 04.jpg"
+    "../Proy-final/imagen/baner 01.jpg",
+    "../Proy-final/imagen/baner 02.jpg",
+    "../Proy-final/imagen/baner 03.jpg",
+    "../Proy-final/imagen/baner 04.jpg"
 ];
 
 
