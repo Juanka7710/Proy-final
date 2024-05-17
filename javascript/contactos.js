@@ -7,13 +7,13 @@ function validateForm() {
     var Terms = document.getElementById('confirma').checked;
 
     //console.log(Terms);
-    
+
     if ((TypeUser == "Seleccione una opción") || (Name == "") || (Email == "") || (Phone == "") || (Message == "") || (Terms == false)) {
         swal("", "Los campos obligatorios (*) no pueden estar vacíos.", "error")
         return false;
     }
-    else{
+    else {
         swal("", "La información se ha enviado con éxito.", "success")
         ContactForm.reset();
     }
-  }
+}

@@ -5,49 +5,61 @@
     }
 
     /* Definicion bloques MenuPpal */
-    .MenuDeportes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuRestaurantes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuTecnologia{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuFinanciera{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuAutomotriz{
+    .MenuDeportes {
         padding: 15px;
         display: inline-block;
     }
 
-    .MenuPpal{
-        background-color:#5574ff !important;
-        text-align:center;
+    .MenuRestaurantes {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuTecnologia {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuFinanciera {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuAutomotriz {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    /* Orientacion Div's MenuPPal */
+    .MenuPpal {
+        background-color: #5574ff !important;
+        text-align: center;
         margin-top: 5%;
     }
-    .MenuPpal ol ul{
-        display:inline-block;
+
+    .DivMenuPPal {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .MenuPpal ol ul {
+        display: inline-block;
         padding: 1%;
     }
-    #InfoMenuPpalId{
+
+    .InfoMenuPpalId {
         color: black;
         font-weight: bold;
-        font-style:inherit;
+        font-style: inherit;
     }
-    
+
     /*Definicion Imagenes MenuPpal */
-    #InfoMenuPpalId{
+    .InfoMenuPpalId {
         background-color: #5574ff;
     }
-    
+
     /* Definicion bloques SubMenu */
-    #SubMenuDeportesId{
+    #SubMenuDeportesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -57,7 +69,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuRestaurantesId{
+
+    #SubMenuRestaurantesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -67,7 +80,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuTecnologiaId{
+
+    #SubMenuTecnologiaId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -77,7 +91,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuFinancieraId{
+
+    #SubMenuFinancieraId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -87,7 +102,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuAutomotrizId{
+
+    #SubMenuAutomotrizId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -97,116 +113,131 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    
+
     /* Margin para Imagenes SubMenuDeportes */
-    #AdidasId{
+    #AdidasId {
         margin-left: 30px;
-        margin-right:20px;
+        margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    #NewBalanceId{
+
+    #NewBalanceId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #NikeId{
+
+    #NikeId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PumaId{
+
+    #PumaId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuRestaurantes */
-    #BrigadaId{
+    #BrigadaId {
         margin-left: 30px;
         margin-right: 50px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PorteñoId{
+
+    #PorteñoId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PassaroId{
+
+    #PassaroId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #SteakHouseId{
+
+    #SteakHouseId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuTecnologia */
-    #AccentureId{
+    #AccentureId {
         margin-left: 30px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PedidosYaId{
+
+    #PedidosYaId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #SalesforceId{
+
+    #SalesforceId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #EtermaxId{
+
+    #EtermaxId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuFinancieras */
-    #BBVAId{
+    #BBVAId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #BibankId{
+
+    #BibankId {
         margin-right: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #SantanderId{
+
+    #SantanderId {
         margin-right: 15px;
         margin-left: 10px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #ProvinciaId{
+
+    #ProvinciaId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuAutomotrices */
-    #MercedesId{
+    #MercedesId {
         margin-left: 15px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #NissanId{
+
+    #NissanId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolkswagenId{
+
+    #VolkswagenId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #VolvoId{
+
+    #VolvoId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
@@ -214,7 +245,7 @@
     }
 
     /* Contenedor Compromiso */
-    #CompromisoId{
+    #CompromisoId {
         justify-content: center;
         text-align: center;
         text-justify: auto;
@@ -226,34 +257,39 @@
     }
 
     /* Contenedor Head */
-    #HeadId{
+    #HeadId {
         text-align: center;
         margin-top: 5%;
     }
 
     /* Contenedor TituloCompromiso */
-    #TituloCompromisoId{
+    #TituloCompromisoId {
         margin-top: 3%;
         text-align: center;
         color: rgb(39, 39, 39);
         font-size: 180%;
-        background-color: #5574ff;;
+        background-color: #5574ff;
+        ;
     }
 
     /* Definicion Span Iconos */
-    #DeportesId{
+    #DeportesId {
         background-color: #5574ff;
     }
-    #RestaurantesId{
+
+    #RestaurantesId {
         background-color: #5574ff;
     }
-    #TecnologiaId{
+
+    #TecnologiaId {
         background-color: #5574ff;
     }
-    #FinancieraId{
+
+    #FinancieraId {
         background-color: #5574ff;
     }
-    #AutomotrizId{
+
+    #AutomotrizId {
         background-color: #5574ff;
     }
 }
@@ -265,49 +301,61 @@
     }
 
     /* Definicion bloques MenuPpal */
-    .MenuDeportes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuRestaurantes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuTecnologia{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuFinanciera{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuAutomotriz{
+    .MenuDeportes {
         padding: 15px;
         display: inline-block;
     }
 
-    .MenuPpal{
-        background-color:#f0cb7d !important;
-        text-align:center;
+    .MenuRestaurantes {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuTecnologia {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuFinanciera {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuAutomotriz {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    /* Orientacion Div's MenuPPal */
+    .MenuPpal {
+        background-color: #f0cb7d !important;
+        text-align: center;
         margin-top: 5%;
     }
-    .MenuPpal ol ul{
-        display:inline-block;
+
+    .DivMenuPPal {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .MenuPpal ol ul {
+        display: inline-block;
         padding: 1%;
     }
-    #InfoMenuPpalId{
+
+    .InfoMenuPpalId {
         color: black;
         font-weight: bold;
-        font-style:inherit;
+        font-style: inherit;
     }
-    
+
     /*Definicion Imagenes MenuPpal */
-    #InfoMenuPpalId{
+    .InfoMenuPpalId {
         background-color: #f0cb7d;
     }
-    
+
     /* Definicion bloques SubMenu */
-    #SubMenuDeportesId{
+    #SubMenuDeportesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -317,7 +365,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuRestaurantesId{
+
+    #SubMenuRestaurantesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -327,7 +376,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuTecnologiaId{
+
+    #SubMenuTecnologiaId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -337,7 +387,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuFinancieraId{
+
+    #SubMenuFinancieraId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -347,7 +398,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuAutomotrizId{
+
+    #SubMenuAutomotrizId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -357,113 +409,128 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    
+
     /* Margin para Imagenes SubMenuDeportes */
-    #AdidasId{
+    #AdidasId {
         margin-left: 30px;
-        margin-right:20px;
+        margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    #NewBalanceId{
+
+    #NewBalanceId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #NikeId{
+
+    #NikeId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PumaId{
+
+    #PumaId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuRestaurantes */
-    #BrigadaId{
+    #BrigadaId {
         margin-left: 30px;
         margin-right: 50px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PorteñoId{
+
+    #PorteñoId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PassaroId{
+
+    #PassaroId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #SteakHouseId{
+
+    #SteakHouseId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuTecnologia */
-    #AccentureId{
+    #AccentureId {
         margin-left: 30px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PedidosYaId{
+
+    #PedidosYaId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #SalesforceId{
+
+    #SalesforceId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #EtermaxId{
+
+    #EtermaxId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuFinancieras */
-    #BBVAId{
+    #BBVAId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #BibankId{
+
+    #BibankId {
         margin-right: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #SantanderId{
+
+    #SantanderId {
         margin-right: 15px;
         margin-left: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #ProvinciaId{
+
+    #ProvinciaId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuAutomotrices */
-    #MercedesId{
+    #MercedesId {
         margin-left: 15px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #NissanId{
+
+    #NissanId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolkswagenId{
+
+    #VolkswagenId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #VolvoId{
+
+    #VolvoId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
@@ -471,7 +538,7 @@
     }
 
     /* Contenedor Compromiso */
-    #CompromisoId{
+    #CompromisoId {
         justify-content: center;
         text-align: center;
         text-justify: auto;
@@ -483,34 +550,39 @@
     }
 
     /* Contenedor Head */
-    #HeadId{
+    #HeadId {
         text-align: center;
         margin-top: 5%;
     }
 
     /* Contenedor TituloCompromiso */
-    #TituloCompromisoId{
+    #TituloCompromisoId {
         margin-top: 3%;
         text-align: center;
         color: rgb(39, 39, 39);
         font-size: 180%;
-        background-color: #f0cb7d;;
+        background-color: #f0cb7d;
+        ;
     }
 
     /* Definicion Span Iconos */
-    #DeportesId{
+    #DeportesId {
         background-color: #f0cb7d;
     }
-    #RestaurantesId{
+
+    #RestaurantesId {
         background-color: #f0cb7d;
     }
-    #TecnologiaId{
+
+    #TecnologiaId {
         background-color: #f0cb7d;
     }
-    #FinancieraId{
+
+    #FinancieraId {
         background-color: #f0cb7d;
     }
-    #AutomotrizId{
+
+    #AutomotrizId {
         background-color: #f0cb7d;
     }
 }
@@ -518,55 +590,67 @@
 @media (min-width: 760px) and (max-width: 1024px) {
     body {
         margin: 0%;
-        font-family: 'Source Code Pro';
+        font-family: 'Sofia';
         font-size: 18px;
         background-color: #c0d8a4;
     }
 
     /* Definicion bloques MenuPpal */
-    .MenuDeportes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuRestaurantes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuTecnologia{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuFinanciera{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuAutomotriz{
+    .MenuDeportes {
         padding: 15px;
         display: inline-block;
     }
 
-    .MenuPpal{
-        background-color:#c0d8a4 !important;
-        text-align:center;
+    .MenuRestaurantes {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuTecnologia {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuFinanciera {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuAutomotriz {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    /* Orientacion Div's MenuPPal */
+    .MenuPpal {
+        background-color: #c0d8a4 !important;
+        text-align: center;
         margin-top: 5%;
     }
-    .MenuPpal ol ul{
-        display:inline-block;
+
+    .DivMenuPPal {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .MenuPpal ol ul {
+        display: inline-block;
         padding: 1%;
     }
-    #InfoMenuPpalId{
+
+    .InfoMenuPpalId {
         color: black;
         font-weight: bold;
-        font-style:inherit;
+        font-style: inherit;
     }
-    
+
     /*Definicion Imagenes MenuPpal */
-    #InfoMenuPpalId{
+    .InfoMenuPpalId {
         background-color: #c0d8a4;
     }
-    
+
     /* Definicion bloques SubMenu */
-    #SubMenuDeportesId{
+    #SubMenuDeportesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -576,7 +660,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuRestaurantesId{
+
+    #SubMenuRestaurantesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -586,7 +671,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuTecnologiaId{
+
+    #SubMenuTecnologiaId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -596,7 +682,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuFinancieraId{
+
+    #SubMenuFinancieraId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -606,7 +693,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuAutomotrizId{
+
+    #SubMenuAutomotrizId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -616,111 +704,126 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    
+
     /* Margin para Imagenes SubMenuDeportes */
-    #AdidasId{
+    #AdidasId {
         margin-left: 30px;
-        margin-right:20px;
-        background-color: rgb(210, 205, 205);
-    }
-    #NewBalanceId{
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    #NikeId{
+
+    #NewBalanceId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
-        display: none;
     }
-    #PumaId{
+
+    #NikeId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
+    #PumaId {
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+        display: none;
+    }
+
     /* Margin para Imagenes SubMenuRestaurantes */
-    #BrigadaId{
+    #BrigadaId {
         margin-left: 30px;
         margin-right: 50px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PorteñoId{
+
+    #PorteñoId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
     }
-    #PassaroId{
+
+    #PassaroId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #SteakHouseId{
+
+    #SteakHouseId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuTecnologia */
-    #AccentureId{
+    #AccentureId {
         margin-left: 30px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PedidosYaId{
+
+    #PedidosYaId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #SalesforceId{
+
+    #SalesforceId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #EtermaxId{
+
+    #EtermaxId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuFinancieras */
-    #BBVAId{
+    #BBVAId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #BibankId{
+
+    #BibankId {
         margin-right: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #SantanderId{
+
+    #SantanderId {
         margin-right: 15px;
         margin-left: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #ProvinciaId{
+
+    #ProvinciaId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuAutomotrices */
-    #MercedesId{
+    #MercedesId {
         margin-left: 15px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #NissanId{
+
+    #NissanId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolkswagenId{
+
+    #VolkswagenId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #VolvoId{
+
+    #VolvoId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
@@ -728,7 +831,7 @@
     }
 
     /* Contenedor Compromiso */
-    #CompromisoId{
+    #CompromisoId {
         justify-content: center;
         text-align: center;
         text-justify: auto;
@@ -740,34 +843,39 @@
     }
 
     /* Contenedor Head */
-    #HeadId{
+    #HeadId {
         text-align: center;
         margin-top: 5%;
     }
 
     /* Contenedor TituloCompromiso */
-    #TituloCompromisoId{
+    #TituloCompromisoId {
         margin-top: 3%;
         text-align: center;
         color: rgb(39, 39, 39);
         font-size: 180%;
-        background-color: #c0d8a4;;
+        background-color: #c0d8a4;
+        ;
     }
 
     /* Definicion Span Iconos */
-    #DeportesId{
+    #DeportesId {
         background-color: #c0d8a4;
     }
-    #RestaurantesId{
+
+    #RestaurantesId {
         background-color: #c0d8a4;
     }
-    #TecnologiaId{
+
+    #TecnologiaId {
         background-color: #c0d8a4;
     }
-    #FinancieraId{
+
+    #FinancieraId {
         background-color: #c0d8a4;
     }
-    #AutomotrizId{
+
+    #AutomotrizId {
         background-color: #c0d8a4;
     }
 }
@@ -781,49 +889,61 @@
     }
 
     /* Definicion bloques MenuPpal */
-    .MenuDeportes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuRestaurantes{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuTecnologia{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuFinanciera{
-        padding: 15px;
-        display: inline-block;
-    }
-    .MenuAutomotriz{
+    .MenuDeportes {
         padding: 15px;
         display: inline-block;
     }
 
-    .MenuPpal{
-        background-color:#a1ffff !important;
-        text-align:center;
+    .MenuRestaurantes {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuTecnologia {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuFinanciera {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .MenuAutomotriz {
+        padding: 15px;
+        display: inline-block;
+    }
+
+    /* Orientacion Div's MenuPPal */
+    .MenuPpal {
+        background-color: #a1ffff !important;
+        text-align: center;
         margin-top: 5%;
     }
-    .MenuPpal ol ul{
-        display:inline-block;
+
+    .DivMenuPPal {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .MenuPpal ol ul {
+        display: inline-block;
         padding: 1%;
     }
-    #InfoMenuPpalId{
+
+    .InfoMenuPpalId {
         color: black;
         font-weight: bold;
-        font-style:inherit;
+        font-style: inherit;
     }
-    
+
     /*Definicion Imagenes MenuPpal */
-    #InfoMenuPpalId{
+    .InfoMenuPpalId {
         background-color: #a1ffff;
     }
-    
+
     /* Definicion bloques SubMenu */
-    #SubMenuDeportesId{
+    #SubMenuDeportesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -833,7 +953,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuRestaurantesId{
+
+    #SubMenuRestaurantesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -843,7 +964,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuTecnologiaId{
+
+    #SubMenuTecnologiaId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -853,7 +975,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuFinancieraId{
+
+    #SubMenuFinancieraId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -863,7 +986,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuAutomotrizId{
+
+    #SubMenuAutomotrizId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -873,106 +997,121 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    
+
     /* Margin para Imagenes SubMenuDeportes */
-    #AdidasId{
+    #AdidasId {
         margin-left: 30px;
-        margin-right:20px;
-        background-color: rgb(210, 205, 205);
-    }
-    #NewBalanceId{
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    #NikeId{
+
+    #NewBalanceId {
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+
+    #NikeId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PumaId{
+
+    #PumaId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuRestaurantes */
-    #BrigadaId{
+    #BrigadaId {
         margin-left: 30px;
         margin-right: 50px;
         background-color: rgb(210, 205, 205);
     }
-    #PorteñoId{
+
+    #PorteñoId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
     }
-    #PassaroId{
+
+    #PassaroId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #SteakHouseId{
+
+    #SteakHouseId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuTecnologia */
-    #AccentureId{
+    #AccentureId {
         margin-left: 30px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    #PedidosYaId{
+
+    #PedidosYaId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #SalesforceId{
+
+    #SalesforceId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #EtermaxId{
+
+    #EtermaxId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuFinancieras */
-    #BBVAId{
+    #BBVAId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #BibankId{
+
+    #BibankId {
         margin-right: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #SantanderId{
+
+    #SantanderId {
         margin-right: 15px;
         margin-left: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #ProvinciaId{
+
+    #ProvinciaId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
         display: none;
     }
-    
+
     /* Margin para Imagenes SubMenuAutomotrices */
-    #MercedesId{
+    #MercedesId {
         margin-left: 15px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #NissanId{
+
+    #NissanId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolkswagenId{
+
+    #VolkswagenId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolvoId{
+
+    #VolvoId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
@@ -980,7 +1119,7 @@
     }
 
     /* Contenedor Compromiso */
-    #CompromisoId{
+    #CompromisoId {
         justify-content: center;
         text-align: center;
         text-justify: auto;
@@ -992,34 +1131,39 @@
     }
 
     /* Contenedor Head */
-    #HeadId{
+    #HeadId {
         text-align: center;
         margin-top: 5%;
     }
 
     /* Contenedor TituloCompromiso */
-    #TituloCompromisoId{
+    #TituloCompromisoId {
         margin-top: 3%;
         text-align: center;
         color: rgb(39, 39, 39);
         font-size: 180%;
-        background-color: #a1ffff;;
+        background-color: #a1ffff;
+        ;
     }
 
     /* Definicion Span Iconos */
-    #DeportesId{
+    #DeportesId {
         background-color: #a1ffff;
     }
-    #RestaurantesId{
+
+    #RestaurantesId {
         background-color: #a1ffff;
     }
-    #TecnologiaId{
+
+    #TecnologiaId {
         background-color: #a1ffff;
     }
-    #FinancieraId{
+
+    #FinancieraId {
         background-color: #a1ffff;
     }
-    #AutomotrizId{
+
+    #AutomotrizId {
         background-color: #a1ffff;
     }
 }
@@ -1029,53 +1173,70 @@
         margin: 0%;
         font-family: 'Montserrat';
         font-size: 18px;
-        background-color: #fc8383;
+        background-color: #dad7d7;
     }
-    
+
     /* Definicion bloques MenuPpal */
-    .MenuDeportes{
+    .MenuDeportes {
         padding: 15px;
         display: inline-block;
+        margin: auto;
     }
-    .MenuRestaurantes{
+
+    .MenuRestaurantes {
         padding: 15px;
         display: inline-block;
+        margin: auto;
     }
-    .MenuTecnologia{
+
+    .MenuTecnologia {
         padding: 15px;
         display: inline-block;
+        margin: auto;
     }
-    .MenuFinanciera{
+
+    .MenuFinanciera {
         padding: 15px;
         display: inline-block;
+        margin: auto;
     }
-    .MenuAutomotriz{
+
+    .MenuAutomotriz {
         padding: 15px;
+        display: inline-block;
+        margin: auto;
+    }
+
+    /* Orientacion Div's MenuPPal */
+    .MenuPpal {
+        background-color: #dad7d7 !important;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .DivMenuPPal {
+        text-align: center;
         display: inline-block;
     }
 
-    .MenuPpal{
-        background-color:#fc8383 !important;
-        text-align:center;
-        margin-top: 5%;
-    }
-    .MenuPpal ol ul{
-        display:inline-block;
+    .MenuPpal ol ul {
+        display: inline-block;
         padding: 1%;
     }
-    #InfoMenuPpalId{
+
+    .InfoMenuPpalId {
         color: black;
         font-weight: bold;
-        font-style:inherit;
+        font-style: inherit;
     }
-    
-    /*Definicion Imagenes MenuPpal */
-    #InfoMenuPpalId{
-        background-color: #fc8383;
+
+    /* Definicion Imagenes MenuPpal */
+    .InfoMenuPpalId {
+        background-color: #dad7d7;
     }
-    
+
     /* Definicion bloques SubMenu */
-    #SubMenuDeportesId{
+    #SubMenuDeportesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -1085,7 +1246,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuRestaurantesId{
+
+    #SubMenuRestaurantesId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -1095,7 +1257,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuTecnologiaId{
+
+    #SubMenuTecnologiaId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -1105,7 +1268,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuFinancieraId{
+
+    #SubMenuFinancieraId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -1115,7 +1279,8 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    #SubMenuAutomotrizId{
+
+    #SubMenuAutomotrizId {
         background-color: rgb(210, 205, 205);
         padding: 15px;
         text-align: center;
@@ -1125,109 +1290,124 @@
         margin-right: auto;
         border-radius: 40px 10px;
     }
-    
+
     /* Margin para Imagenes SubMenuDeportes */
-    #AdidasId{
+    #AdidasId {
         margin-left: 30px;
-        margin-right:20px;
-        background-color: rgb(210, 205, 205);
-    }
-    #NewBalanceId{
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    #NikeId{
+
+    #NewBalanceId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    #PumaId{
+
+    #NikeId {
         margin-right: 20px;
         background-color: rgb(210, 205, 205);
     }
-    
+
+    #PumaId {
+        margin-right: 20px;
+        background-color: rgb(210, 205, 205);
+    }
+
     /* Margin para Imagenes SubMenuRestaurantes */
-    #BrigadaId{
+    #BrigadaId {
         margin-left: 30px;
         margin-right: 50px;
         background-color: rgb(210, 205, 205);
     }
-    #PorteñoId{
+
+    #PorteñoId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
     }
-    #PassaroId{
+
+    #PassaroId {
         margin-right: 60px;
         background-color: rgb(210, 205, 205);
     }
-    #SteakHouseId{
+
+    #SteakHouseId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuTecnologia */
-    #AccentureId{
+    #AccentureId {
         margin-left: 30px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #PedidosYaId{
+
+    #PedidosYaId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #SalesforceId{
+
+    #SalesforceId {
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #EtermaxId{
+
+    #EtermaxId {
         margin-right: 30px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuFinancieras */
-    #BBVAId{
+    #BBVAId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #BibankId{
+
+    #BibankId {
         margin-right: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #SantanderId{
+
+    #SantanderId {
         margin-right: 15px;
         margin-left: 10px;
         background-color: rgb(210, 205, 205);
     }
-    #ProvinciaId{
+
+    #ProvinciaId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
     }
-    
+
     /* Margin para Imagenes SubMenuAutomotrices */
-    #MercedesId{
+    #MercedesId {
         margin-left: 15px;
         margin-right: 40px;
         background-color: rgb(210, 205, 205);
     }
-    #NissanId{
+
+    #NissanId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolkswagenId{
+
+    #VolkswagenId {
         margin-right: 40px;
         margin-left: 15px;
         background-color: rgb(210, 205, 205);
     }
-    #VolvoId{
+
+    #VolvoId {
         margin-left: 15px;
         margin-right: 15px;
         background-color: rgb(210, 205, 205);
     }
 
     /* Contenedor Compromiso */
-    #CompromisoId{
+    #CompromisoId {
         justify-content: center;
         text-align: center;
         text-justify: auto;
@@ -1239,35 +1419,40 @@
     }
 
     /* Contenedor Head */
-    #HeadId{
+    #HeadId {
         text-align: center;
         margin-top: 5%;
     }
 
     /* Contenedor TituloCompromiso */
-    #TituloCompromisoId{
+    #TituloCompromisoId {
         margin-top: 3%;
         text-align: center;
         color: rgb(39, 39, 39);
         font-size: 180%;
-        background-color: #fc8383;;
+        background-color: #dad7d7;
+        ;
     }
 
     /* Definicion Span Iconos */
-    #DeportesId{
-        background-color: #fc8383;
+    #DeportesId {
+        background-color: #dad7d7;
     }
-    #RestaurantesId{
-        background-color: #fc8383;
+
+    #RestaurantesId {
+        background-color: #dad7d7;
     }
-    #TecnologiaId{
-        background-color: #fc8383;
+
+    #TecnologiaId {
+        background-color: #dad7d7;
     }
-    #FinancieraId{
-        background-color: #fc8383;
+
+    #FinancieraId {
+        background-color: #dad7d7;
     }
-    #AutomotrizId{
-        background-color: #fc8383;
+
+    #AutomotrizId {
+        background-color: #dad7d7;
     }
 }
 
@@ -1323,7 +1508,7 @@
     padding: 5px;
     background-color: #ff0000;
     border-radius: 13px;
-    
+
 }
 
 .nav__link {
@@ -1333,7 +1518,7 @@
 }
 
 /* Contenedor Main */
-#ContainerId{
+#ContainerId {
     margin-top: 3%;
     margin-left: 2%;
     margin-right: 2%;
@@ -1369,7 +1554,7 @@
     list-style: none;
     display: flex;
     margin: 20px;
-} 
+}
 
 .li__nav {
     display: flex;
@@ -1387,7 +1572,7 @@
     align-items: center;
     margin: 10px;
     height: 70px;
-} 
+}
 
 .footer__text {
     color: #000;
