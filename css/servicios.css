@@ -69,42 +69,42 @@ body {
 
 /*main */
 
+
 .nuestroNegocioEsCuidarte {
     display: flex;
-    font-size: 57px;
-    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 50px;
 }
 
-.subImgHero{
-    width: 100%;
-    height: 30px;
-    background-color: #ff0000;
-}
 
 .uSPPTN{
     font-size: 37px;
-    margin: 7%;
+    margin: 5%;
     color: #ff0000;
     text-align: center;
 }
 
 .pUSOOTB {
-    display: flex;
-    text-align: center;
-    margin: 7%;
     font-size: 22px;
+    text-align: justify;
+    padding: 0% 17%;
 }
 
 .conteinerFormulario {
     background-color: #ff0000;
+    padding: 50px;
+    margin: 80px 0px;
 }
 
 .qACUE {
+    text-align: center;
     font-size: 40px;
 }
 
 .iDDCURDPPPTC {
     font-size: 30px;
+    text-align: center;
 }
 
 button {
@@ -112,7 +112,7 @@ button {
     cursor: pointer;
     border: none;
     padding: 0.9rem 2rem;
-    margin: 0;
+    margin-left: 17%;
     font-family: inherit;
     font-size: inherit;
     position: relative;
@@ -122,7 +122,7 @@ button {
     font-size: 17px;
     border-radius: 500px;
     overflow: hidden;
-    background: #ff0000;
+    background: #ffffff;
     color: #f8f8ff;
    }
    
@@ -167,7 +167,7 @@ button {
 
 .conCUDS {
     font-size: 22px;
-    margin: 50px;
+    margin: 50px 10% 50px 25%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -182,45 +182,65 @@ button {
     grid-area: camarasMonitoreadas;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 50px;
 }
   
 .ingresoCuidado {
     grid-area: ingresoCuidado;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 50px;
 }
   
 .monitoreoDeCajaFuerte {
     grid-area: monitoreoDeCajaFuerte; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 50px;
 }
   
 .controlDeHorarios {
     grid-area: controlDeHorarios; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 50px;
 }
 
 .botonDePanico {
     grid-area: botonDePanico; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 50px;
 }
 
 .alarmaMonitoreada {
     grid-area: alarmaMonitoreada; 
     display: flex;
+    padding: 50px;
     align-items: center;
-    justify-content: center;
+}
+
+.start-and-end-section {
+    height: 17px;
+    width: 100%;
+    background-color: #ff0000;
+}
+
+.section-imagenes {
+    margin-top: 70px;
+}
+
+.title-section-images {
+    font-size: 40px;
+    margin: 15px 0px;
+}
+
+.bUSPEZNYCABA {
+    font-size: 30px;
 }
 
 .service {
+    background-color: #292929;
     display: flex;
     align-items: center;
 }
@@ -232,18 +252,6 @@ button {
 
 .service-left .text {
     text-align: right;
-}
-
-.text-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.text-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .separadorDeServicios1 {
@@ -263,15 +271,23 @@ button {
 }
 
 .text {
-    margin: 10px;
+    margin: 7%;
 }
 
 .text h4 {
     font-size: 37px;
+    color: #ff0000;
 }
 
 .text p {
+    color: #ffffff;
     font-size: 20px;
+}
+
+.start-and-end-section {
+    height: 17px;
+    width: 100%;
+    background-color: #ff0000;
 }
 
 /* footer  */
