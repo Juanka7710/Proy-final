@@ -4,6 +4,10 @@
         background-color: #5574ff;
     }
 
+    .Picture {
+        width: 50%;
+    }
+
     /* Definicion bloques MenuPpal */
     .MenuDeportes {
         padding: 15px;
@@ -28,6 +32,24 @@
     .MenuAutomotriz {
         padding: 15px;
         display: inline-block;
+    }
+
+    /* MenuPpal Responsive */
+
+    #DivMenuRestaurantes {
+        display: none;
+    }
+
+    #DivMenuTecnologia {
+        display: none;
+    }
+
+    #DivMenuFinanciera {
+        display: none;
+    }
+
+    #DivMenuAutomotriz {
+        display: none;
     }
 
     /* Orientacion Div's MenuPPal */
@@ -300,6 +322,10 @@
         background-color: #f0cb7d;
     }
 
+    .Picture {
+        width: 50%;
+    }
+
     /* Definicion bloques MenuPpal */
     .MenuDeportes {
         padding: 15px;
@@ -408,6 +434,20 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 40px 10px;
+    }
+
+    /* MenuPpal Responsive */
+
+    #DivMenuTecnologia {
+        display: none;
+    }
+
+    #DivMenuFinanciera {
+        display: none;
+    }
+
+    #DivMenuAutomotriz {
+        display: none;
     }
 
     /* Margin para Imagenes SubMenuDeportes */
@@ -595,6 +635,10 @@
         background-color: #c0d8a4;
     }
 
+    .Picture {
+        width: 50%;
+    }
+
     /* Definicion bloques MenuPpal */
     .MenuDeportes {
         padding: 15px;
@@ -703,6 +747,16 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 40px 10px;
+    }
+
+    /* MenuPpal Responsive */
+
+    #DivMenuFinanciera {
+        display: none;
+    }
+
+    #DivMenuAutomotriz {
+        display: none;
     }
 
     /* Margin para Imagenes SubMenuDeportes */
@@ -888,6 +942,10 @@
         background-color: #a1ffff;
     }
 
+    .Picture {
+        width: 50%;
+    }
+
     /* Definicion bloques MenuPpal */
     .MenuDeportes {
         padding: 15px;
@@ -996,6 +1054,12 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 40px 10px;
+    }
+
+    /* MenuPpal Responsive */
+
+    #DivMenuAutomotriz {
+        display: none;
     }
 
     /* Margin para Imagenes SubMenuDeportes */
@@ -1174,6 +1238,10 @@
         font-family: 'Montserrat';
         font-size: 18px;
         background-color: #dad7d7;
+    }
+
+    .Picture {
+        width: 50%;
     }
 
     /* Definicion bloques MenuPpal */
